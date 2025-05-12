@@ -29,7 +29,7 @@
     # FRP 配置
     FRP_SERVER_ADDR = "64.181.240.44";
     FRP_SERVER_PORT = "7000";
-    FRP_AUTH_TOKEN = "1779387745";
+    FRP_AUTH_TOKEN = "RGiiru9SrRLFumhz";
 
     # 远程端口配置
     DEBIAN_REMOTE_PORT = "60011";
