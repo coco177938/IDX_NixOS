@@ -4,38 +4,38 @@
   # 系统环境变量
   env = {
     # Sing-box 配置
-    ARGO_DOMAIN = "your-domain.example.com";
+    ARGO_DOMAIN = "idx.ppua.nyc.mn";
     UUID = "de04add9-5c68-8bab-950c-08cd5320df18";
-    CDN = "your-cdn-domain.com";
-    NODE_NAME = "your-node-name";
-    VMESS_PORT = "";  # 端口范围 1000-65535
-    VLESS_PORT = "";  # 端口范围 1000-65535
+    CDN = "www.visa.com.sg";
+    NODE_NAME = "idx";
+    VMESS_PORT = "60000";  # 端口范围 1000-65535
+    VLESS_PORT = "60001";  # 端口范围 1000-65535
 
     # 节点信息的 Nginx 静态文件服务
-    NGINX_PORT = "";  # 端口范围 1000-65535
+    NGINX_PORT = "60010";  # 端口范围 1000-65535
 
     # Argo Tunnel 配置
-    ARGO_TOKEN = "your-argo-token";
+    ARGO_TOKEN = "eyJhIjoiMzI3ZjczYmNmNjg5Mzg4MmJiYzE2Yzc5NmRhZmNkMDIiLCJ0IjoiY2E1OTRjZTgtZTRjMi00ODkyLWJlNTEtNGQ0OTExZWM2MjQzIiwicyI6IllURTBPVGd3TkdJdE56azRaaTAwT1RrekxUaG1NV1F0T0dVMk1HVTFOakkyWWpBeSJ9";
 
     # Nezha 监控配置
-    NEZHA_SERVER = "monitor.example.com";
-    NEZHA_PORT = "443";
-    NEZHA_KEY = "your-nezha-key";
-    NEZHA_TLS = "--tls";  # 不要可以清空值
+    NEZHA_SERVER = "nezha.zoqrc.eu.org";
+    NEZHA_PORT = "11112";
+    NEZHA_KEY = "wgdam3rEPd6lbjhteO";
+    NEZHA_TLS = "";  # 不要可以清空值
 
     # SSH 配置
-    SSH_PASSWORD = "your-secure-password";
+    SSH_PASSWORD = "1779387745";
 
     # FRP 配置
-    FRP_SERVER_ADDR = "frp.example.com";
+    FRP_SERVER_ADDR = "31.22.111.47";
     FRP_SERVER_PORT = "7000";
-    FRP_AUTH_TOKEN = "your-frp-token";
+    FRP_AUTH_TOKEN = "7I4m1fwdK3DrwODK";
 
     # 远程端口配置
-    DEBIAN_REMOTE_PORT = "6001";
-    UBUNTU_REMOTE_PORT = "6002";
-    CENTOS_REMOTE_PORT = "6003";
-    ALPINE_REMOTE_PORT = "6004";
+    DEBIAN_REMOTE_PORT = "60011";
+    UBUNTU_REMOTE_PORT = "60012";
+    CENTOS_REMOTE_PORT = "60013";
+    ALPINE_REMOTE_PORT = "60014";
   };
 
   # 使用哪个 nixpkgs 频道
